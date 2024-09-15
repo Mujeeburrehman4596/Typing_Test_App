@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Typing Speed Test</h1>
+        <div class="typing-test">
+            <div class="text-display mb-4">
+                <p id="text-to-type">Click "Start Test" to begin.</p>
+            </div>
+            <textarea id="user-input" class="form-control mb-4" rows="5" placeholder="Start typing here..." disabled></textarea>
+            <div class="button-group text-center mb-4">
+                <button id="start-test" class="btn btn-primary">Start Test</button>
+                <button id="stop-test" class="btn btn-danger ms-2" disabled>Stop Test</button>
+                <button id="reset-test" class="btn btn-secondary ms-2" disabled>Reset Test</button>
+            </div>
+            <div class="results mt-4 text-center">
+                <p id="error-count">Errors: 0</p>
+                <p id="speed">Speed: 0 WPM</p>
+                <p id="time">Time: 0s</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
