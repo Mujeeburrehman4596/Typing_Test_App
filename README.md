@@ -18,7 +18,7 @@ Installation
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/your-username/typing-test-app.git
+git clone https://https://github.com/Mujeeburrehman4596/Typing_Test_App
 Open the index.html file in your browser.
 Usage
 Launch the app in your browser to start a typing test.
